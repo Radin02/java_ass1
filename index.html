@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery_Signup</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  
+  
+  
+</head>
+<body>
+ 
+ <div class="signup">
+    <div class="header">
+ <h2>Singup form</h2>
+<h3>Reorder elements in a list or grid using the mouse</h3>
+    </div>
+ <ul id="sortable">
+  <li class="ui-state-default">Email<input type="email" name="Email" placeholder="sample@email" id="email">
+  <div id="valid_email"></div></li>
+  <li class="ui-state-default">First Name<input type="name" name="name" placeholder="First Name" id="name"><div id="first_name"></div></li>
+  <li class="ui-state-default">Last Name<input type="name" name="name" placeholder="Last Name" id="name1"><div id="last_name"></div>
+  <li class="ui-state-default">Full Name<input type="name" name="name" placeholder="Full Name_autocomplete" id="name2"><div id="full_name"></div></li>
+  <li class="ui-state-default">Password<input type="password" name="password" placeholder="password" id="password"></li>
+  <li class="ui-state-default">Confirm Password<input type="password" name="password" placeholder=" confirm password" id="password1"></li>
+  <li class="ui-state-default"><button id="match">Password Matched</button><div id="matched"></div></li>
+
+  <li class="ui-state-default">
+
+  <div class="gender">Select Gender
+
+  <br>
+  <div id="draggable" class="ui-widget-content">
+  <p>
+
+  <a class="list-group-item" href="#"><i class="fa fa-male fa-fw" aria-hidden="true"></i></a>
+
+  </p>
+  </div>
+  <div id="draggable1" class="ui-widget-content">
+  <p>
+
+  <a class="list-group-item" href="#"><i class="fa fa-female fa-fw" aria-hidden="true"></i> </a>
+  </p>
+  </div>
+
+  <!--<div class="list-group">
+  <a class="list-group-item" href="#"><i class="fa fa-male fa-fw" aria-hidden="true"></i></a>
+  <a class="list-group-item" href="#"><i class="fa fa-female fa-fw" aria-hidden="true"></i> </a>
+  </p>
+  </div>   -->
+
+  <div id="droppable" class="ui-widget-header">
+  <div class="box"></div>
+  <p>Gender</p>
+</div>
+</div>
+  </li>
+
+  
+  
+</ul>
+
+
+<br><br><br><br><br><br>
+
+<label><input type="checkbox" id="cbox1" value="first_checkbox"> I hereby accept the terms and licence aggrement</label>
+
+
+<br><br><br>
+
+<button id="submit">submit</button>
+
+</div>
+
+<script src="https://use.fontawesome.com/1c96e4b934.js"></script>
+ <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+
+.signup{
+	padding-left: 20px;
+	
+}
+
+.header{
+	font-style: center;
+	padding-left: 20px;
+}
+
+
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 160%; }
+  #sortable li { margin: 0 23px 23px 23px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+  #sortable li span { position: absolute; margin-left: -1.3em; }
+
+
+
+
+  #match span{
+  	color: white;
+  }
+
+
+  
+
+
+  #draggable { width: 30px; height: 30px; padding: 0.5em; float: left; margin: 2px 2px 2px 0;
+  	}
+  #draggable1 { width: 30px; height: 30px; padding: 0.5em; float: left; margin: 2px 2px 2px 0;
+  }
+  #droppable { width: 40px; height: 40px; padding: 0.5em; float: left; margin: 2px; ;
+  	}
+
+  .box{
+  	height: 40px;
+  	width: 40px;
+  	border: 2px solid green;
+  }
+
+
+  #first_name{
+  	margin-left: 530px;
+  }
+
+  #last_name{
+  	margin-left: 530px;
+  }
+
+  #full_name{
+  	margin-left: 270px;
+  }
+
+
+  #valid_email{
+  	margin-left: 270px;
+  }
+
+
+  #submit{
+  	background-color: green;
+  	margin-left: 150px;
+  }
+
+  #cbox1{
+  	margin-left: 30px;
+  }
